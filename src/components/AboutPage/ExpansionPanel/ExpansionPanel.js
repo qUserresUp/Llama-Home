@@ -39,7 +39,7 @@ const ExpansionPanels = props => {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}>
+          <Typography className={classes.heading} style={{color: '#FE6B8B'}}>
               {props.summary}
           </Typography>
         </ExpansionPanelSummary>
